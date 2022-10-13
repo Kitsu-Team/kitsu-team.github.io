@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="all docs project(Kitsu Teams)">
+        
         <meta name="author" content="PyWhy">
-        <link rel="canonical" href="https://kitsu-team.github.io/">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Kitsu-Team Docs</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://kitsu-team.github.io/no-nav-title/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>No title in nav - Kitsu-Team Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Kitsu-Team Docs</a>
+                <a class="navbar-brand" href="..">Kitsu-Team Docs</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,19 +33,19 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Welcome to MkDocs</a>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Welcome to MkDocs</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Section <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="no-nav-title/" class="dropdown-item">No title in nav</a>
+    <a href="./" class="dropdown-item active">No title in nav</a>
 </li>
                                     
 <li>
-    <a href="nav-title.en/" class="dropdown-item">Page Title</a>
+    <a href="../nav-title.en/" class="dropdown-item">Page Title</a>
 </li>
                                 </ul>
                             </li>
@@ -54,7 +54,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="nimbus/" class="dropdown-item">Index</a>
+    <a href="../nimbus/" class="dropdown-item">Index</a>
 </li>
                                 </ul>
                             </li>
@@ -67,12 +67,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="no-nav-title/" class="nav-link">
+                                <a rel="next" href="../nav-title.en/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -94,16 +94,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcome-to-mkdocs" class="nav-link">Welcome to MkDocs</a>
+            <li class="nav-item" data-level="1"><a href="#no-title-in-nav" class="nav-link">No title in nav</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#commands" class="nav-link">Commands</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -112,23 +104,11 @@
                     <div class="col-md-9" role="main">
 
 <ul>
-<li class="i18n-link i18n-link-found i18n-link-ru"><a href="index.ru/">Русский</a></li>
+<li class="i18n-link i18n-link-not-found i18n-link-ru">Русский: Эта страница не переведена на русский.</li>
 </ul>
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h1 id="no-title-in-nav">No title in nav</h1>
+<p>This page is in english, catalan and spanish. And no title configured in nav configuration. This is processed with default language, due to no language is specified in the markdown filename.</p>
+<p>See also <a href="https://gitlab.com/mkdocs-i18n/mkdocs-i18n/-/blob/main/mkdocs.yml#L40">https://gitlab.com/mkdocs-i18n/mkdocs-i18n/-/blob/main/mkdocs.yml#L40</a> and <a href="https://gitlab.com/mkdocs-i18n/mkdocs-i18n/-/blob/main/docs/no-nav-title.md">https://gitlab.com/mkdocs-i18n/mkdocs-i18n/-/blob/main/docs/no-nav-title.md</a></p></div>
             </div>
         </div>
 
@@ -137,11 +117,11 @@ docs/
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -206,8 +186,3 @@ docs/
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.4.0
-Build Date UTC : 2022-10-13 13:31:28.331649+00:00
--->

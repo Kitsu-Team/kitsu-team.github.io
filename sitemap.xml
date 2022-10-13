@@ -5,4 +5,24 @@
          <lastmod>2022-10-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://kitsu-team.github.io/index.ru/</loc>
+         <lastmod>2022-10-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kitsu-team.github.io/nav-title.en/</loc>
+         <lastmod>2022-10-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kitsu-team.github.io/no-nav-title/</loc>
+         <lastmod>2022-10-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kitsu-team.github.io/nimbus/</loc>
+         <lastmod>2022-10-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
